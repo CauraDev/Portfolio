@@ -8,8 +8,6 @@ body {
     justify-content: space-between;
     margin: 0px;
     align-items: center;
-
-
 }
 
 
@@ -37,4 +35,56 @@ body {
     height: 50px;
     background-color:#fcce9c;
     border-radius: 50px;
+}
+
+#presentacion{
+    display: block;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 40px;
+    text-align: center;
+    color: #663300;
+
+}
+
+#presentacion h1, p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#contenedor-skills {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.articulo-skill {
+    background-color: #fef3e6;
+    width: 300px;
+    height: 350px;
+    margin: 15px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.articulo-skill img{
+    width: 150px;
+    height: 200px;
+}
+
+.articulo-skill h2, p{
+    color: #663300;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.articulo-skill h2{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.articulo-skill p{
+    font-size: 18px;
 }
